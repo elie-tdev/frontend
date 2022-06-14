@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonBase should be consistent with previous versions:  1`] = `
+Object {
+  "defaultProps": Object {
+    "disableRipple": true,
+    "disableTouchRipple": true,
+  },
+  "styleOverrides": Object {
+    "root": Object {
+      "&.Mui-focusVisible": Object {
+        "boxShadow": "0px 0px 1px #e0e0e0",
+      },
+    },
+  },
+}
+`;

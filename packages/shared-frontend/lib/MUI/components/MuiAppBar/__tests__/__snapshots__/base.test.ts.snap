@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppBar should be consistent with previous versions:  1`] = `
+Object {
+  "defaultProps": Object {
+    "color": "inherit",
+    "elevation": 0,
+    "variant": "outlined",
+  },
+}
+`;

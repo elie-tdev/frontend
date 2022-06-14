@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Button should create styles for error color 1`] = `
+Object {
+  "props": Object {
+    "color": "error",
+    "variant": "text",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px #ef5350",
+      "color": "#c62828",
+    },
+    "&.MuiButtonGroup-groupedText.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px rgba(239, 83, 80, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:focus": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(239, 83, 80, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:focus:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(239, 83, 80, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(239, 83, 80, 0.2)",
+    },
+    "&:focus": Object {
+      "color": "#c62828",
+    },
+    "&:focus:hover": Object {
+      "color": "#c62828",
+    },
+    "&:hover": Object {
+      "color": "#c62828",
+    },
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "transition": "color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;
+
+exports[`Text Button should create styles for info color 1`] = `
+Object {
+  "props": Object {
+    "color": "info",
+    "variant": "text",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px #03a9f4",
+      "color": "#01579b",
+    },
+    "&.MuiButtonGroup-groupedText.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px rgba(3, 169, 244, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:focus": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(3, 169, 244, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:focus:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(3, 169, 244, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(3, 169, 244, 0.2)",
+    },
+    "&:focus": Object {
+      "color": "#01579b",
+    },
+    "&:focus:hover": Object {
+      "color": "#01579b",
+    },
+    "&:hover": Object {
+      "color": "#01579b",
+    },
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "transition": "color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;
+
+exports[`Text Button should create styles for primary color 1`] = `
+Object {
+  "props": Object {
+    "color": "primary",
+    "variant": "text",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px rgb(72, 145, 220)",
+      "color": "rgb(18, 82, 148)",
+    },
+    "&.MuiButtonGroup-groupedText.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px rgba(72, 145, 220, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:focus": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(72, 145, 220, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:focus:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(72, 145, 220, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(72, 145, 220, 0.2)",
+    },
+    "&:focus": Object {
+      "color": "rgb(18, 82, 148)",
+    },
+    "&:focus:hover": Object {
+      "color": "rgb(18, 82, 148)",
+    },
+    "&:hover": Object {
+      "color": "rgb(18, 82, 148)",
+    },
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "transition": "color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;
+
+exports[`Text Button should create styles for secondary color 1`] = `
+Object {
+  "props": Object {
+    "color": "secondary",
+    "variant": "text",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px rgb(144, 144, 144)",
+      "color": "rgb(81, 81, 81)",
+    },
+    "&.MuiButtonGroup-groupedText.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px rgba(144, 144, 144, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:focus": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(144, 144, 144, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:focus:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(144, 144, 144, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(144, 144, 144, 0.2)",
+    },
+    "&:focus": Object {
+      "color": "rgb(81, 81, 81)",
+    },
+    "&:focus:hover": Object {
+      "color": "rgb(81, 81, 81)",
+    },
+    "&:hover": Object {
+      "color": "rgb(81, 81, 81)",
+    },
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "transition": "color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;
+
+exports[`Text Button should create styles for success color 1`] = `
+Object {
+  "props": Object {
+    "color": "success",
+    "variant": "text",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px #4caf50",
+      "color": "#1b5e20",
+    },
+    "&.MuiButtonGroup-groupedText.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px rgba(76, 175, 80, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:focus": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(76, 175, 80, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:focus:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(76, 175, 80, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(76, 175, 80, 0.2)",
+    },
+    "&:focus": Object {
+      "color": "#1b5e20",
+    },
+    "&:focus:hover": Object {
+      "color": "#1b5e20",
+    },
+    "&:hover": Object {
+      "color": "#1b5e20",
+    },
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "transition": "color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;
+
+exports[`Text Button should create styles for warning color 1`] = `
+Object {
+  "props": Object {
+    "color": "warning",
+    "variant": "text",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px #ff9800",
+      "color": "#e65100",
+    },
+    "&.MuiButtonGroup-groupedText.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px rgba(255, 152, 0, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:focus": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(255, 152, 0, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:focus:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(255, 152, 0, 0.2)",
+    },
+    "&.MuiButtonGroup-groupedText:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgba(255, 152, 0, 0.2)",
+    },
+    "&:focus": Object {
+      "color": "#e65100",
+    },
+    "&:focus:hover": Object {
+      "color": "#e65100",
+    },
+    "&:hover": Object {
+      "color": "#e65100",
+    },
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "transition": "color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Label should be consistent with previous versions:  1`] = `
+Object {
+  "styleOverrides": Object {
+    "filled": Object {
+      "&:not(.MuiInputLabel-shrink):not(.MuiInputLabel-sizeSmall)": Object {
+        "transform": "translate(12px, 18px) scale(1)",
+      },
+    },
+  },
+}
+`;

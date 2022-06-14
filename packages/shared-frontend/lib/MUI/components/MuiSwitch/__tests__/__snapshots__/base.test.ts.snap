@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch should be consistent with previous versions:  1`] = `
+Object {
+  "defaultProps": Object {
+    "focusRipple": false,
+  },
+  "styleOverrides": Object {
+    "colorPrimary": Object {
+      "&.Mui-checked + .MuiSwitch-track": Object {
+        "color": "#1B76D4",
+        "opacity": 1,
+      },
+    },
+    "colorSecondary": Object {
+      "&.Mui-checked + .MuiSwitch-track": Object {
+        "color": "#757575",
+        "opacity": 1,
+      },
+    },
+    "input": Object {
+      "backgroundColor": "transparent",
+    },
+    "root": Object {
+      "color": "#bdbdbd",
+      "contain": "strict",
+      "height": 32,
+      "margin": 8,
+      "padding": 0,
+      "width": 52,
+    },
+    "sizeSmall": Object {
+      "& .MuiSwitch-switchBase": Object {
+        "&.Mui-checked": Object {
+          "transform": "translateX(12px)",
+        },
+        "&:hover": Object {
+          "backgroundColor": "transparent",
+        },
+        "margin": -2,
+        "padding": 4,
+      },
+      "& .MuiSwitch-thumb": Object {
+        "height": 12,
+        "width": 12,
+      },
+      "& .MuiSwitch-track": Object {
+        "borderRadius": 8,
+      },
+      "height": 16,
+      "width": 28,
+    },
+    "switchBase": Object {
+      "&.Mui-checked": Object {
+        "& + &.MuiSwitch-track": Object {
+          "backgroundColor": "currentColor",
+          "border": "none",
+          "opacity": 1,
+        },
+        "transform": "translateX(20px)",
+      },
+      "&.Mui-disabled": Object {
+        "& .MuiSwitch-thumb": Object {
+          "boxShadow": "none",
+        },
+        "&.Mui-checked": Object {
+          "opacity": 0.4,
+        },
+        "&.Mui-checked + .MuiSwitch-track, & + .MuiSwitch-track": Object {
+          "border": "none",
+          "opacity": 0.2,
+        },
+        "backgroundColor": "none",
+        "border": "none",
+        "opacity": 0.4,
+      },
+      "&.Mui-focusVisible": Object {
+        "& + .MuiSwitch-track": Object {
+          "boxShadow": "inset 0px 0px 0px 1px #bdbdbd, inset 0px 0px 0px 3px #FFFFFF",
+        },
+        "& .MuiSwitch-thumb": Object {
+          "boxShadow": "none",
+        },
+      },
+      "&.Mui-focusVisible.Mui-checked": Object {
+        "&.MuiSwitch-colorPrimary": Object {
+          "& + .MuiSwitch-track": Object {
+            "boxShadow": "inset 0px 0px 0px 1px #1B76D4, inset 0px 0px 0px 3px #FFFFFF",
+          },
+        },
+        "&.MuiSwitch-colorSecondary": Object {
+          "& + .MuiSwitch-track": Object {
+            "boxShadow": "inset 0px 0px 0px 1px #757575, inset 0px 0px 0px 3px #FFFFFF",
+          },
+        },
+      },
+      "padding": 3,
+    },
+    "thumb": Object {
+      "backgroundColor": "white",
+      "border": "inset 2px solid #bdbdbd",
+      "height": 26,
+      "width": 26,
+    },
+    "track": Object {
+      "backgroundColor": "currentColor",
+      "borderRadius": 16,
+      "opacity": 1,
+      "transition": "background-color 200ms ease, border 200ms ease",
+      "willChange": "background-color, border, box-shadow",
+    },
+  },
+}
+`;

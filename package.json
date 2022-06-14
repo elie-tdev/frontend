@@ -1,0 +1,61 @@
+{
+  "name": "shared-frontend",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Shared Frontend Libraries",
+  "workspaces": [
+    "packages/*",
+    "packages/internal/*"
+  ],
+  "scripts": {
+    "build": "lerna run build --include-dependencies --stream",
+    "changed": "lerna changed --loglevel error --toposort -l",
+    "changed:build": "lerna run build --since --include-dependencies --stream",
+    "changed:lint": "lerna run lint --since --exclude-dependents --parallel",
+    "changed:lint-fix": "lerna run lint-fix --since --exclude-dependents --parallel",
+    "changed:test": "lerna run test --since --exclude-dependents --stream",
+    "gh:pages": "yarn workspace gh-pages-site build",
+    "utils:update-editor-sdks": "yarn dlx @yarnpkg/sdks vscode",
+    "release:ci": "lerna publish --conventional-commits --no-private --yes --no-verify-access",
+    "clean": "yarn workspaces foreach run clean"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^13.2.0",
+    "@commitlint/config-conventional": "^13.2.0",
+    "@commitlint/config-lerna-scopes": "^13.2.0",
+    "eslint": "^7.32.0",
+    "lerna": "^3.20.2",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
+  },
+  "lerna": {
+    "version": "independent",
+    "npmClient": "yarn",
+    "command": {
+      "publish": {
+        "ignoreChanges": [
+          "**.md",
+          "**.markdown",
+          "**.sh",
+          "tsconfig.**",
+          "__tests__/**",
+          "*.test.{ts,js,tsx,mjs}",
+          "*.snap",
+          "jest.config.**",
+          "vite.config.**",
+          ".npmrc",
+          ".eslintrc",
+          ".gitignore"
+        ],
+        "message": "chore(release): publish"
+      }
+    },
+    "packages": [
+      "packages/*",
+      "packages/internal/*"
+    ],
+    "useWorkspaces": true,
+    "publishConfig": "dist"
+  },
+  "packageManager": "yarn@3.1.0-rc.6"
+}

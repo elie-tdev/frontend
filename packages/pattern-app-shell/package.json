@@ -1,0 +1,110 @@
+{
+  "name": "design-system/pattern-app-shell",
+  "version": "2.0.0-beta.7",
+  "sideEffects": false,
+  "author": "BAI XD <parker.pierpont@bai.com>",
+  "description": "BAI Shared AppShell Pattern",
+  "homepage": "https://github.com/swt-xd/Shared-Frontend",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    }
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/swt-xd/Shared-Frontend.git",
+    "directory": "packages/pattern-app-shell"
+  },
+  "publishConfig": {
+    "registry": "https://BAI.jfrog.io/artifactory/api/npm/cxd-npm-releases/",
+    "tag": "beta"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc -p tsconfig.release.json",
+    "pages": "vite build --config vite.config.pages.ts",
+    "pages:build": "yarn build",
+    "serve": "vite preview --config vite.config.pages.ts",
+    "test": "jest --passWithNoTests",
+    "eslint:fix": "eslint ./app ./lib --fix",
+    "eslint:run": "eslint ./app ./lib",
+    "format:fix": "prettier -w -c ./app ./lib",
+    "format:run": "pretty-quick",
+    "lint": "yarn format:run && yarn eslint:run",
+    "lint-fix": "yarn run format:fix && yarn eslint:fix",
+    "prepack": "yarn lint && yarn test && yarn build",
+    "pub:dry-run": "yarn npm publish . --access public --tag beta --dry-run",
+    "pub": "yarn npm publish . --access public --tag beta",
+    "clean": "rimraf ./dist ./node_modules"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/material": "^5.0.0",
+    "@mui/styles": "^5.0.0",
+    "@mui/system": "^5.0.0",
+    "@mui/types": "^7.0.0",
+    "@mui/utils": "^5.0.0",
+    "design-system/shared-frontend": ">= 2.1.0 || < 3.0.0",
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "dependencies": {
+    "design-system/pattern-sidebar-navigation": "^2.0.0-beta.19",
+    "design-system/pattern-utils": "^2.0.0-beta.5",
+    "react-transition-group": "^4.4.0"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@internal/eslint-config": "1.0.0",
+    "@internal/prettier-config-react": "1.0.0",
+    "@mui/icons-material": "^5.0.0",
+    "@mui/lab": "^5.0.0-alpha.55",
+    "@mui/material": "^5.0.0",
+    "@mui/styles": "^5.0.0",
+    "@mui/system": "^5.0.0",
+    "@mui/types": "^7.0.0",
+    "@mui/utils": "^5.0.0",
+    "design-system/shared-frontend": "^2.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.11.7",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/react-transition-group": "^4.4.3",
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "@vitejs/plugin-react-refresh": "^1.3.1",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.24.0",
+    "fs-extra": "^10.0.0",
+    "history": "^5.0.0",
+    "jest": "^27.0.4",
+    "prettier": "^2.1.1",
+    "pretty-quick": "^3.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router": "6.0.0-beta.0",
+    "react-router-dom": "6.0.0-beta.0",
+    "rimraf": "3.0.2",
+    "ts-jest": "^27.0.3",
+    "tslib": "^2.2.0",
+    "typescript": "^4.4.3",
+    "vite": "^2.3.4"
+  },
+  "eslintConfig": {
+    "extends": "@internal"
+  },
+  "prettier": "@internal/prettier-config-react"
+}

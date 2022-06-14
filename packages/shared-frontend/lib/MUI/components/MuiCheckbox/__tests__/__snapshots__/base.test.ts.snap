@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox should be consistent with previous versions:  1`] = `
+Object {
+  "defaultProps": Object {
+    "checkedIcon": <Unknown />,
+    "disableFocusRipple": true,
+    "disableRipple": true,
+    "disableTouchRipple": true,
+    "icon": <Unknown />,
+    "indeterminateIcon": <Unknown />,
+  },
+  "styleOverrides": Object {
+    "colorPrimary": Object {
+      "&.Mui-focusVisible .BAICheckbox-wrapper": Object {
+        "borderColor": "#1B76D4",
+        "boxShadow": "0px 0px 0px 4px rgba(72, 145, 220, 0.5)",
+        "color": "#1B76D4",
+      },
+      "&:hover": Object {
+        "color": "rgb(18, 82, 148)",
+      },
+      "color": "#1B76D4",
+      "transition": "color 300ms ease",
+    },
+    "colorSecondary": Object {
+      "&.Mui-focusVisible .BAICheckbox-wrapper": Object {
+        "borderColor": "#757575",
+        "boxShadow": "0px 0px 0px 4px rgba(144, 144, 144, 0.5)",
+        "color": "#757575",
+      },
+      "&:hover": Object {
+        "backgroundColor": "transparent",
+        "color": "rgb(81, 81, 81)",
+      },
+      "color": "#757575",
+      "transition": "color 300ms ease",
+    },
+    "indeterminate": Object {
+      "&:not(.Mui-disabled) .BAICheckbox-wrapper": Object {
+        "backgroundColor": "currentcolor",
+        "borderColor": "currentcolor",
+        "borderStyle": "solid",
+      },
+    },
+    "root": Object {
+      "& .BAICheckbox-wrapper": Object {
+        "backgroundColor": "transparent",
+        "borderColor": "#bdbdbd",
+        "borderRadius": 4,
+        "borderStyle": "solid",
+        "borderWidth": 2,
+        "contain": "layout paint",
+        "userSelect": "none",
+        "willChange": "border-color, background-color",
+      },
+      "& .BAICheckbox-wrapper svg": Object {
+        "color": "#FFFFFF",
+      },
+      "&.Mui-checked": Object {
+        "&:not(.Mui-disabled) .BAICheckbox-wrapper": Object {
+          "backgroundColor": "currentcolor",
+          "borderColor": "currentcolor",
+          "borderStyle": "solid",
+        },
+      },
+      "&.Mui-disabled .BAICheckbox-wrapper": Object {
+        "backgroundColor": "#616161",
+        "borderColor": "#616161",
+        "opacity": 0.3,
+      },
+      "&.Mui-focusVisible .BAICheckbox-wrapper": Object {
+        "borderColor": "#9e9e9e",
+        "boxShadow": "0px 0px 0px 4px #e0e0e0",
+        "color": "#9e9e9e",
+      },
+      "&.MuiIconButton-root.Mui-focusVisible": Object {
+        "backgroundColor": "transparent",
+      },
+      "&:hover": Object {
+        "color": "#616161",
+      },
+      "color": "#757575",
+    },
+  },
+}
+`;

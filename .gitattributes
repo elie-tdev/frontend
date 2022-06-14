@@ -1,0 +1,8 @@
+# This section allows us to hide various .yarn/*
+# files
+
+# This allos us to hide yarn cached deps from github
+#   kinda like .gitignore for node_modules, but we need to actually
+#   commit them to get the benefits of PNP
+.yarn/**        linguist-generated=true
+yarn.lock       linguist-generated=true

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox should be consistent with previous versions:  1`] = `
+Object {
+  "defaultProps": Object {
+    "disableUnderline": true,
+  },
+  "styleOverrides": Object {
+    "focused": Object {
+      "backgroundColor": "transparent",
+      "borderWidth": 2,
+    },
+    "input": Object {
+      "&.Mui-focused, &.Mui-focusVisible, &.Mui-active": Object {
+        "backgroundColor": "transparent !important",
+      },
+      "backgroundColor": "transparent",
+    },
+    "root": Object {
+      "&.Mui-error, &.MuiInputBase-colorSecondary.Mui-error": Object {
+        "&.Mui-focused, &.Mui-active, &.Mui-focusVisible": Object {
+          "boxShadow": "0px 0px 0px 2px #d32f2f",
+        },
+        "boxShadow": "0px 0px 0px 1px #d32f2f",
+      },
+      "&.Mui-focused, &.Mui-active, &.Mui-focusVisible": Object {
+        "&.MuiInputBase-colorSecondary": Object {
+          "boxShadow": "0px 0px 0px 2px #757575",
+        },
+        "boxShadow": "0px 0px 0px 2px #1B76D4",
+      },
+      "&.MuiInputBase-root": Object {
+        "backgroundColor": "transparent",
+      },
+      "&:hover": Object {
+        "boxShadow": "0px 0px 0px 1px rgba(0, 0, 0, 0.87)",
+      },
+      "backgroundColor": "transparent",
+      "borderRadius": 8,
+      "borderStyle": "solid",
+      "borderWidth": 0,
+      "boxShadow": "0px 0px 0px 1px #bdbdbd",
+    },
+  },
+}
+`;

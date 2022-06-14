@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Outlined Button should create styles for error color 1`] = `
+Object {
+  "props": Object {
+    "color": "error",
+    "variant": "outlined",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px #ef5350",
+    },
+    "&.MuiButtonGroup-groupedOutlined.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px #ef5350",
+    },
+    "&.MuiButtonGroup-groupedOutlined:focus": Object {
+      "boxShadow": "inset 0px 0px 0px 0px #ef5350",
+    },
+    "&.MuiButtonGroup-groupedOutlined:focus:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px #ef5350",
+    },
+    "&.MuiButtonGroup-groupedOutlined:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px #ef5350",
+    },
+    "&.MuiButtonGroup-groupedOutlinedHorizontal:not(:last-child):focus + .MuiButtonGroup-groupedOutlinedHorizontal.MuiButtonGroup-groupedOutlinedHorizontal.MuiButton-outlined": Object {
+      "borderLeftColor": "#d32f2f",
+    },
+    "&.MuiButtonGroup-groupedOutlinedHorizontal:not(:last-child):hover + .MuiButtonGroup-groupedOutlinedHorizontal.MuiButtonGroup-groupedOutlinedHorizontal.MuiButton-outlined": Object {
+      "borderLeftColor": "#d32f2f",
+    },
+    "&.MuiButtonGroup-groupedOutlinedVertical:not(:last-child):focus + .MuiButtonGroup-groupedOutlinedVertical.MuiButtonGroup-groupedOutlinedVertical.MuiButton-outlined": Object {
+      "borderTopColor": "#d32f2f",
+    },
+    "&.MuiButtonGroup-groupedOutlinedVertical:not(:last-child):hover + .MuiButtonGroup-groupedOutlinedVertical.MuiButtonGroup-groupedOutlinedVertical.MuiButton-outlined": Object {
+      "borderTopColor": "#d32f2f",
+    },
+    "&:focus": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(239, 83, 80, 0.2), 0px 0px 6px #ef5350",
+    },
+    "&:focus:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(239, 83, 80, 0.2), 0px 0px 6px #ef5350",
+    },
+    "&:hover": Object {
+      "color": "#c62828",
+    },
+    "borderStyle": "solid",
+    "borderWidth": "1px",
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "transition": "color 300ms ease, border-color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;
+
+exports[`Outlined Button should create styles for info color 1`] = `
+Object {
+  "props": Object {
+    "color": "info",
+    "variant": "outlined",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px #03a9f4",
+    },
+    "&.MuiButtonGroup-groupedOutlined.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px #03a9f4",
+    },
+    "&.MuiButtonGroup-groupedOutlined:focus": Object {
+      "boxShadow": "inset 0px 0px 0px 0px #03a9f4",
+    },
+    "&.MuiButtonGroup-groupedOutlined:focus:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px #03a9f4",
+    },
+    "&.MuiButtonGroup-groupedOutlined:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px #03a9f4",
+    },
+    "&.MuiButtonGroup-groupedOutlinedHorizontal:not(:last-child):focus + .MuiButtonGroup-groupedOutlinedHorizontal.MuiButtonGroup-groupedOutlinedHorizontal.MuiButton-outlined": Object {
+      "borderLeftColor": "#0288d1",
+    },
+    "&.MuiButtonGroup-groupedOutlinedHorizontal:not(:last-child):hover + .MuiButtonGroup-groupedOutlinedHorizontal.MuiButtonGroup-groupedOutlinedHorizontal.MuiButton-outlined": Object {
+      "borderLeftColor": "#0288d1",
+    },
+    "&.MuiButtonGroup-groupedOutlinedVertical:not(:last-child):focus + .MuiButtonGroup-groupedOutlinedVertical.MuiButtonGroup-groupedOutlinedVertical.MuiButton-outlined": Object {
+      "borderTopColor": "#0288d1",
+    },
+    "&.MuiButtonGroup-groupedOutlinedVertical:not(:last-child):hover + .MuiButtonGroup-groupedOutlinedVertical.MuiButtonGroup-groupedOutlinedVertical.MuiButton-outlined": Object {
+      "borderTopColor": "#0288d1",
+    },
+    "&:focus": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(3, 169, 244, 0.2), 0px 0px 6px #03a9f4",
+    },
+    "&:focus:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(3, 169, 244, 0.2), 0px 0px 6px #03a9f4",
+    },
+    "&:hover": Object {
+      "color": "#01579b",
+    },
+    "borderStyle": "solid",
+    "borderWidth": "1px",
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "transition": "color 300ms ease, border-color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;
+
+exports[`Outlined Button should create styles for primary color 1`] = `
+Object {
+  "props": Object {
+    "color": "primary",
+    "variant": "outlined",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px rgb(72, 145, 220)",
+    },
+    "&.MuiButtonGroup-groupedOutlined.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px rgb(72, 145, 220)",
+    },
+    "&.MuiButtonGroup-groupedOutlined:focus": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgb(72, 145, 220)",
+    },
+    "&.MuiButtonGroup-groupedOutlined:focus:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgb(72, 145, 220)",
+    },
+    "&.MuiButtonGroup-groupedOutlined:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgb(72, 145, 220)",
+    },
+    "&.MuiButtonGroup-groupedOutlinedHorizontal:not(:last-child):focus + .MuiButtonGroup-groupedOutlinedHorizontal.MuiButtonGroup-groupedOutlinedHorizontal.MuiButton-outlined": Object {
+      "borderLeftColor": "#1B76D4",
+    },
+    "&.MuiButtonGroup-groupedOutlinedHorizontal:not(:last-child):hover + .MuiButtonGroup-groupedOutlinedHorizontal.MuiButtonGroup-groupedOutlinedHorizontal.MuiButton-outlined": Object {
+      "borderLeftColor": "#1B76D4",
+    },
+    "&.MuiButtonGroup-groupedOutlinedVertical:not(:last-child):focus + .MuiButtonGroup-groupedOutlinedVertical.MuiButtonGroup-groupedOutlinedVertical.MuiButton-outlined": Object {
+      "borderTopColor": "#1B76D4",
+    },
+    "&.MuiButtonGroup-groupedOutlinedVertical:not(:last-child):hover + .MuiButtonGroup-groupedOutlinedVertical.MuiButtonGroup-groupedOutlinedVertical.MuiButton-outlined": Object {
+      "borderTopColor": "#1B76D4",
+    },
+    "&:focus": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(72, 145, 220, 0.2), 0px 0px 6px rgb(72, 145, 220)",
+    },
+    "&:focus:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(72, 145, 220, 0.2), 0px 0px 6px rgb(72, 145, 220)",
+    },
+    "&:hover": Object {
+      "color": "rgb(18, 82, 148)",
+    },
+    "borderStyle": "solid",
+    "borderWidth": "1px",
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "transition": "color 300ms ease, border-color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;
+
+exports[`Outlined Button should create styles for secondary color 1`] = `
+Object {
+  "props": Object {
+    "color": "secondary",
+    "variant": "outlined",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px rgb(144, 144, 144)",
+    },
+    "&.MuiButtonGroup-groupedOutlined.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px rgb(144, 144, 144)",
+    },
+    "&.MuiButtonGroup-groupedOutlined:focus": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgb(144, 144, 144)",
+    },
+    "&.MuiButtonGroup-groupedOutlined:focus:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgb(144, 144, 144)",
+    },
+    "&.MuiButtonGroup-groupedOutlined:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px rgb(144, 144, 144)",
+    },
+    "&.MuiButtonGroup-groupedOutlinedHorizontal:not(:last-child):focus + .MuiButtonGroup-groupedOutlinedHorizontal.MuiButtonGroup-groupedOutlinedHorizontal.MuiButton-outlined": Object {
+      "borderLeftColor": "#757575",
+    },
+    "&.MuiButtonGroup-groupedOutlinedHorizontal:not(:last-child):hover + .MuiButtonGroup-groupedOutlinedHorizontal.MuiButtonGroup-groupedOutlinedHorizontal.MuiButton-outlined": Object {
+      "borderLeftColor": "#757575",
+    },
+    "&.MuiButtonGroup-groupedOutlinedVertical:not(:last-child):focus + .MuiButtonGroup-groupedOutlinedVertical.MuiButtonGroup-groupedOutlinedVertical.MuiButton-outlined": Object {
+      "borderTopColor": "#757575",
+    },
+    "&.MuiButtonGroup-groupedOutlinedVertical:not(:last-child):hover + .MuiButtonGroup-groupedOutlinedVertical.MuiButtonGroup-groupedOutlinedVertical.MuiButton-outlined": Object {
+      "borderTopColor": "#757575",
+    },
+    "&:focus": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(144, 144, 144, 0.2), 0px 0px 6px rgb(144, 144, 144)",
+    },
+    "&:focus:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(144, 144, 144, 0.2), 0px 0px 6px rgb(144, 144, 144)",
+    },
+    "&:hover": Object {
+      "color": "rgb(81, 81, 81)",
+    },
+    "borderStyle": "solid",
+    "borderWidth": "1px",
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "transition": "color 300ms ease, border-color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;
+
+exports[`Outlined Button should create styles for success color 1`] = `
+Object {
+  "props": Object {
+    "color": "success",
+    "variant": "outlined",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px #4caf50",
+    },
+    "&.MuiButtonGroup-groupedOutlined.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px #4caf50",
+    },
+    "&.MuiButtonGroup-groupedOutlined:focus": Object {
+      "boxShadow": "inset 0px 0px 0px 0px #4caf50",
+    },
+    "&.MuiButtonGroup-groupedOutlined:focus:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px #4caf50",
+    },
+    "&.MuiButtonGroup-groupedOutlined:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px #4caf50",
+    },
+    "&.MuiButtonGroup-groupedOutlinedHorizontal:not(:last-child):focus + .MuiButtonGroup-groupedOutlinedHorizontal.MuiButtonGroup-groupedOutlinedHorizontal.MuiButton-outlined": Object {
+      "borderLeftColor": "#2e7d32",
+    },
+    "&.MuiButtonGroup-groupedOutlinedHorizontal:not(:last-child):hover + .MuiButtonGroup-groupedOutlinedHorizontal.MuiButtonGroup-groupedOutlinedHorizontal.MuiButton-outlined": Object {
+      "borderLeftColor": "#2e7d32",
+    },
+    "&.MuiButtonGroup-groupedOutlinedVertical:not(:last-child):focus + .MuiButtonGroup-groupedOutlinedVertical.MuiButtonGroup-groupedOutlinedVertical.MuiButton-outlined": Object {
+      "borderTopColor": "#2e7d32",
+    },
+    "&.MuiButtonGroup-groupedOutlinedVertical:not(:last-child):hover + .MuiButtonGroup-groupedOutlinedVertical.MuiButtonGroup-groupedOutlinedVertical.MuiButton-outlined": Object {
+      "borderTopColor": "#2e7d32",
+    },
+    "&:focus": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(76, 175, 80, 0.2), 0px 0px 6px #4caf50",
+    },
+    "&:focus:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(76, 175, 80, 0.2), 0px 0px 6px #4caf50",
+    },
+    "&:hover": Object {
+      "color": "#1b5e20",
+    },
+    "borderStyle": "solid",
+    "borderWidth": "1px",
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "transition": "color 300ms ease, border-color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;
+
+exports[`Outlined Button should create styles for warning color 1`] = `
+Object {
+  "props": Object {
+    "color": "warning",
+    "variant": "outlined",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px #ff9800",
+    },
+    "&.MuiButtonGroup-groupedOutlined.Mui-focusVisible": Object {
+      "boxShadow": "inset 0px 0px 0px 2px #ff9800",
+    },
+    "&.MuiButtonGroup-groupedOutlined:focus": Object {
+      "boxShadow": "inset 0px 0px 0px 0px #ff9800",
+    },
+    "&.MuiButtonGroup-groupedOutlined:focus:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px #ff9800",
+    },
+    "&.MuiButtonGroup-groupedOutlined:hover": Object {
+      "boxShadow": "inset 0px 0px 0px 0px #ff9800",
+    },
+    "&.MuiButtonGroup-groupedOutlinedHorizontal:not(:last-child):focus + .MuiButtonGroup-groupedOutlinedHorizontal.MuiButtonGroup-groupedOutlinedHorizontal.MuiButton-outlined": Object {
+      "borderLeftColor": "#ED6C02",
+    },
+    "&.MuiButtonGroup-groupedOutlinedHorizontal:not(:last-child):hover + .MuiButtonGroup-groupedOutlinedHorizontal.MuiButtonGroup-groupedOutlinedHorizontal.MuiButton-outlined": Object {
+      "borderLeftColor": "#ED6C02",
+    },
+    "&.MuiButtonGroup-groupedOutlinedVertical:not(:last-child):focus + .MuiButtonGroup-groupedOutlinedVertical.MuiButtonGroup-groupedOutlinedVertical.MuiButton-outlined": Object {
+      "borderTopColor": "#ED6C02",
+    },
+    "&.MuiButtonGroup-groupedOutlinedVertical:not(:last-child):hover + .MuiButtonGroup-groupedOutlinedVertical.MuiButtonGroup-groupedOutlinedVertical.MuiButton-outlined": Object {
+      "borderTopColor": "#ED6C02",
+    },
+    "&:focus": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(255, 152, 0, 0.2), 0px 0px 6px #ff9800",
+    },
+    "&:focus:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(255, 152, 0, 0.2), 0px 0px 6px #ff9800",
+    },
+    "&:hover": Object {
+      "color": "#e65100",
+    },
+    "borderStyle": "solid",
+    "borderWidth": "1px",
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "transition": "color 300ms ease, border-color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;

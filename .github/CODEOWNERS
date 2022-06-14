@@ -1,0 +1,29 @@
+# This file is like a .gitignore, but determines who should
+# get added to pull-requests as reviewers by default.
+#
+# You should refer to people as you would in a GitHub PR.
+# (e.g. @some_username). Almost everyone should be referred to either
+# by the name of a team in GitHub, or by their GitHub username, which
+# should be some variation of their BAI Quicklook ID.
+#
+# Each line is a file pattern followed by one or more owners.
+
+##  -------------
+##  Global Owners
+##  -------------
+
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence, this team will
+# be requested for review when someone opens a pull request.\
+
+* swt-xd/shared-frontend-admins
+
+##  ---------------------------
+##  Individual Package Configs:
+##  ---------------------------
+
+# - Sidebar Navigation (BAI DS Sidebar Navigation)
+packages/patterns-sidebar-navigation/*   @pp250309 @JP250552
+
+# - Shared Frontend (BAI DS MUI Theme)
+packages/shared-frontend/*               @pp250309 @JP250552

@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contained Button should create styles for error color 1`] = `
+Object {
+  "props": Object {
+    "color": "error",
+    "variant": "contained",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "backgroundColor": "#c62828",
+      "boxShadow": "inset 0px 0px 0px 2px #c62828, inset 0px 0px 0px 4px #fff",
+    },
+    "&.MuiButtonGroup-groupedContained.Mui-focusVisible": Object {
+      "backgroundColor": "#c62828",
+      "boxShadow": "inset 0px 0px 0px 2px #c62828, inset 0px 0px 0px 4px #fff",
+    },
+    "&.MuiButtonGroup-groupedContained:focus": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(239, 83, 80, 0.2), 0px 0px 6px #ef5350",
+    },
+    "&.MuiButtonGroup-groupedContained:focus:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(239, 83, 80, 0.2), 0px 0px 6px #ef5350",
+    },
+    "&.MuiButtonGroup-groupedContained:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(239, 83, 80, 0.2), 0px 0px 6px #ef5350",
+    },
+    "&:focus": Object {
+      "backgroundColor": "#c62828",
+      "boxShadow": "0px 0px 4px 0px rgba(239, 83, 80, 0.2), 0px 0px 6px #ef5350",
+    },
+    "&:focus:hover": Object {
+      "backgroundColor": "#c62828",
+      "boxShadow": "0px 0px 4px 0px rgba(239, 83, 80, 0.2), 0px 0px 6px #ef5350",
+    },
+    "&:hover": Object {
+      "backgroundColor": "#c62828",
+    },
+    "backgroundColor": "#d32f2f",
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "color": "#fff",
+    "transition": "color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;
+
+exports[`Contained Button should create styles for info color 1`] = `
+Object {
+  "props": Object {
+    "color": "info",
+    "variant": "contained",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "backgroundColor": "#01579b",
+      "boxShadow": "inset 0px 0px 0px 2px #01579b, inset 0px 0px 0px 4px #fff",
+    },
+    "&.MuiButtonGroup-groupedContained.Mui-focusVisible": Object {
+      "backgroundColor": "#01579b",
+      "boxShadow": "inset 0px 0px 0px 2px #01579b, inset 0px 0px 0px 4px #fff",
+    },
+    "&.MuiButtonGroup-groupedContained:focus": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(3, 169, 244, 0.2), 0px 0px 6px #03a9f4",
+    },
+    "&.MuiButtonGroup-groupedContained:focus:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(3, 169, 244, 0.2), 0px 0px 6px #03a9f4",
+    },
+    "&.MuiButtonGroup-groupedContained:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(3, 169, 244, 0.2), 0px 0px 6px #03a9f4",
+    },
+    "&:focus": Object {
+      "backgroundColor": "#01579b",
+      "boxShadow": "0px 0px 4px 0px rgba(3, 169, 244, 0.2), 0px 0px 6px #03a9f4",
+    },
+    "&:focus:hover": Object {
+      "backgroundColor": "#01579b",
+      "boxShadow": "0px 0px 4px 0px rgba(3, 169, 244, 0.2), 0px 0px 6px #03a9f4",
+    },
+    "&:hover": Object {
+      "backgroundColor": "#01579b",
+    },
+    "backgroundColor": "#0288d1",
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "color": "#fff",
+    "transition": "color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;
+
+exports[`Contained Button should create styles for primary color 1`] = `
+Object {
+  "props": Object {
+    "color": "primary",
+    "variant": "contained",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "backgroundColor": "rgb(18, 82, 148)",
+      "boxShadow": "inset 0px 0px 0px 2px rgb(18, 82, 148), inset 0px 0px 0px 4px #FFFFFF",
+    },
+    "&.MuiButtonGroup-groupedContained.Mui-focusVisible": Object {
+      "backgroundColor": "rgb(18, 82, 148)",
+      "boxShadow": "inset 0px 0px 0px 2px rgb(18, 82, 148), inset 0px 0px 0px 4px #FFFFFF",
+    },
+    "&.MuiButtonGroup-groupedContained:focus": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(72, 145, 220, 0.2), 0px 0px 6px rgb(72, 145, 220)",
+    },
+    "&.MuiButtonGroup-groupedContained:focus:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(72, 145, 220, 0.2), 0px 0px 6px rgb(72, 145, 220)",
+    },
+    "&.MuiButtonGroup-groupedContained:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(72, 145, 220, 0.2), 0px 0px 6px rgb(72, 145, 220)",
+    },
+    "&:focus": Object {
+      "backgroundColor": "rgb(18, 82, 148)",
+      "boxShadow": "0px 0px 4px 0px rgba(72, 145, 220, 0.2), 0px 0px 6px rgb(72, 145, 220)",
+    },
+    "&:focus:hover": Object {
+      "backgroundColor": "rgb(18, 82, 148)",
+      "boxShadow": "0px 0px 4px 0px rgba(72, 145, 220, 0.2), 0px 0px 6px rgb(72, 145, 220)",
+    },
+    "&:hover": Object {
+      "backgroundColor": "rgb(18, 82, 148)",
+    },
+    "backgroundColor": "#1B76D4",
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "color": "#FFFFFF",
+    "transition": "color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;
+
+exports[`Contained Button should create styles for secondary color 1`] = `
+Object {
+  "props": Object {
+    "color": "secondary",
+    "variant": "contained",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "backgroundColor": "rgb(81, 81, 81)",
+      "boxShadow": "inset 0px 0px 0px 2px rgb(81, 81, 81), inset 0px 0px 0px 4px #FFFFFF",
+    },
+    "&.MuiButtonGroup-groupedContained.Mui-focusVisible": Object {
+      "backgroundColor": "rgb(81, 81, 81)",
+      "boxShadow": "inset 0px 0px 0px 2px rgb(81, 81, 81), inset 0px 0px 0px 4px #FFFFFF",
+    },
+    "&.MuiButtonGroup-groupedContained:focus": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(144, 144, 144, 0.2), 0px 0px 6px rgb(144, 144, 144)",
+    },
+    "&.MuiButtonGroup-groupedContained:focus:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(144, 144, 144, 0.2), 0px 0px 6px rgb(144, 144, 144)",
+    },
+    "&.MuiButtonGroup-groupedContained:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(144, 144, 144, 0.2), 0px 0px 6px rgb(144, 144, 144)",
+    },
+    "&:focus": Object {
+      "backgroundColor": "rgb(81, 81, 81)",
+      "boxShadow": "0px 0px 4px 0px rgba(144, 144, 144, 0.2), 0px 0px 6px rgb(144, 144, 144)",
+    },
+    "&:focus:hover": Object {
+      "backgroundColor": "rgb(81, 81, 81)",
+      "boxShadow": "0px 0px 4px 0px rgba(144, 144, 144, 0.2), 0px 0px 6px rgb(144, 144, 144)",
+    },
+    "&:hover": Object {
+      "backgroundColor": "rgb(81, 81, 81)",
+    },
+    "backgroundColor": "#757575",
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "color": "#FFFFFF",
+    "transition": "color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;
+
+exports[`Contained Button should create styles for success color 1`] = `
+Object {
+  "props": Object {
+    "color": "success",
+    "variant": "contained",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "backgroundColor": "#1b5e20",
+      "boxShadow": "inset 0px 0px 0px 2px #1b5e20, inset 0px 0px 0px 4px #fff",
+    },
+    "&.MuiButtonGroup-groupedContained.Mui-focusVisible": Object {
+      "backgroundColor": "#1b5e20",
+      "boxShadow": "inset 0px 0px 0px 2px #1b5e20, inset 0px 0px 0px 4px #fff",
+    },
+    "&.MuiButtonGroup-groupedContained:focus": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(76, 175, 80, 0.2), 0px 0px 6px #4caf50",
+    },
+    "&.MuiButtonGroup-groupedContained:focus:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(76, 175, 80, 0.2), 0px 0px 6px #4caf50",
+    },
+    "&.MuiButtonGroup-groupedContained:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(76, 175, 80, 0.2), 0px 0px 6px #4caf50",
+    },
+    "&:focus": Object {
+      "backgroundColor": "#1b5e20",
+      "boxShadow": "0px 0px 4px 0px rgba(76, 175, 80, 0.2), 0px 0px 6px #4caf50",
+    },
+    "&:focus:hover": Object {
+      "backgroundColor": "#1b5e20",
+      "boxShadow": "0px 0px 4px 0px rgba(76, 175, 80, 0.2), 0px 0px 6px #4caf50",
+    },
+    "&:hover": Object {
+      "backgroundColor": "#1b5e20",
+    },
+    "backgroundColor": "#2e7d32",
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "color": "#fff",
+    "transition": "color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;
+
+exports[`Contained Button should create styles for warning color 1`] = `
+Object {
+  "props": Object {
+    "color": "warning",
+    "variant": "contained",
+  },
+  "style": Object {
+    "&.Mui-focusVisible": Object {
+      "backgroundColor": "#e65100",
+      "boxShadow": "inset 0px 0px 0px 2px #e65100, inset 0px 0px 0px 4px #fff",
+    },
+    "&.MuiButtonGroup-groupedContained.Mui-focusVisible": Object {
+      "backgroundColor": "#e65100",
+      "boxShadow": "inset 0px 0px 0px 2px #e65100, inset 0px 0px 0px 4px #fff",
+    },
+    "&.MuiButtonGroup-groupedContained:focus": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(255, 152, 0, 0.2), 0px 0px 6px #ff9800",
+    },
+    "&.MuiButtonGroup-groupedContained:focus:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(255, 152, 0, 0.2), 0px 0px 6px #ff9800",
+    },
+    "&.MuiButtonGroup-groupedContained:hover": Object {
+      "boxShadow": "0px 0px 4px 0px rgba(255, 152, 0, 0.2), 0px 0px 6px #ff9800",
+    },
+    "&:focus": Object {
+      "backgroundColor": "#e65100",
+      "boxShadow": "0px 0px 4px 0px rgba(255, 152, 0, 0.2), 0px 0px 6px #ff9800",
+    },
+    "&:focus:hover": Object {
+      "backgroundColor": "#e65100",
+      "boxShadow": "0px 0px 4px 0px rgba(255, 152, 0, 0.2), 0px 0px 6px #ff9800",
+    },
+    "&:hover": Object {
+      "backgroundColor": "#e65100",
+    },
+    "backgroundColor": "#ED6C02",
+    "boxShadow": "0 0 0px rgba(0,0,0,.001)",
+    "color": "#fff",
+    "transition": "color 300ms ease, box-shadow 300ms ease",
+  },
+}
+`;

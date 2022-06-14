@@ -1,0 +1,33 @@
+name: Run Tests
+
+on:
+  pull_request:
+    branches:
+      - "main"
+
+env:
+  JFROG_TOKEN: ${{ secrets.JFROG_API_KEY }}
+  JFROG_EMAIL: pp250309@bai.com
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Use Node.js 14
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - name: "Install Yarn Globally"
+        run: "npm i yarn --global"
+      - name: "Set Interactive to false"
+        run: "yarn config set preferInteractive false"
+      - name: "Run Yarn install"
+        run: "yarn install --immutable"
+      - name: Run Linting
+        run: yarn changed:lint
+      - name: Run Build
+        run: yarn changed:build
+      - name: Run Tests
+        run: yarn changed:test

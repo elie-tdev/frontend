@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGroup should be consistent with previous versions:  1`] = `
+Object {
+  "defaultProps": Object {
+    "disableElevation": true,
+    "disableFocusRipple": true,
+    "disableRipple": true,
+  },
+}
+`;

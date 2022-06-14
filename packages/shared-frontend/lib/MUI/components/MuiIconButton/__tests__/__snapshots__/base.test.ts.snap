@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon Button should be consistent with previous versions:  1`] = `
+Object {
+  "defaultProps": Object {
+    "disableFocusRipple": true,
+    "disableRipple": true,
+    "disableTouchRipple": true,
+    "focusRipple": false,
+  },
+}
+`;

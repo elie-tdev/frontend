@@ -1,0 +1,18 @@
+name: Lint PR Title
+on:
+  pull_request:
+    branches:
+      - "main"
+
+jobs:
+  commitlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Fetch dependencies
+        run: "yarn install --immutable"
+      - name: Check PR with commitlint
+        run: |
+          echo '${{ github.event.pull_request.title }}' | yarn dlx @commitlint/cli@^13.2.0 -V -g scripts/commitlint.config.js

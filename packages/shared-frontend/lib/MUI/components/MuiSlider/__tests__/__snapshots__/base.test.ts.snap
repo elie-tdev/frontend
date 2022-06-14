@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider should be consistent with previous versions:  1`] = `
+Object {
+  "styleOverrides": Object {
+    "thumb": Object {
+      "&:not(.MuiSlider-thumbSizeSmall)": Object {
+        "backgroundColor": "#fff",
+        "boxShadow": "0px 4px 8px 0px rgba(0, 0, 0, 0.15), inset 0 0 1px 1px #e0e0e0",
+      },
+      "height": 22,
+      "marginLeft": 0,
+      "marginTop": 0,
+      "width": 22,
+    },
+    "thumbSizeSmall": Object {
+      "&:hover, &.Mui-active": Object {
+        "& > .MuiSlider-valueLabelOpen": Object {
+          "transform": "scale(75%) translateY(-110%)",
+        },
+        "transform": "scale(150%) translateY(-35%) translateX(-35%)",
+      },
+      "&:hover, &.Mui-active, &.Mui-focusVisible": Object {
+        "boxShadow": "none",
+      },
+      "boxShadow": "none",
+      "height": 12,
+      "transformOrigin": "center",
+      "transition": "transform 150ms",
+      "width": 12,
+    },
+    "track": Object {
+      "border": "none",
+    },
+  },
+}
+`;

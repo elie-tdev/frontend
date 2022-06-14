@@ -1,0 +1,55 @@
+name: Publish Changed Packages
+
+on:
+  push:
+    branches:
+      - "main"
+
+    # Prevents this from running recursively, see:
+    # https://github.community/t/how-to-push-to-protected-branches-in-a-github-action/16101/14
+
+    # other files can be added/removed, but this just prevents publishing if
+    # only one or all of these files changed
+    paths-ignore:
+      - "package.json"
+      - "**/package.json"
+      - "yarn.lock"
+      - "**/CHANGELOG.md"
+      - "**/README.md"
+      - "**/*.md"
+      - ".yarn/**"
+      - ".yarnrc.yml"
+      - "/scripts/**"
+      - "/.vscode/**"
+      - "/.github/**"
+env:
+  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  D3_NPM_TOKEN: ${{ secrets.D3_NPM_TOKEN }}
+  JFROG_TOKEN: ${{ secrets.JFROG_API_KEY }}
+  JFROG_EMAIL: pp250309@bai.com
+
+jobs:
+  publish-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
+      - name: git config
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+      - name: Fetch dependencies
+        run: "yarn install --immutable"
+      - name: Ignore changed files from tests
+        run: "git stash"
+      - name: Run Build
+        run: yarn changed:build
+      - name: Publish Changed Packages
+        run: "yarn release:ci"

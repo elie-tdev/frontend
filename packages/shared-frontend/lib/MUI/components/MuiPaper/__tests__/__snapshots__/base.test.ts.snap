@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paper should be consistent with previous versions:  1`] = `
+Object {
+  "defaultProps": Object {
+    "elevation": 0,
+    "variant": "outlined",
+  },
+}
+`;

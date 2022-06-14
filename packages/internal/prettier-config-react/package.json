@@ -1,0 +1,15 @@
+{
+  "name": "@internal/prettier-config-react",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Internally used prettier configs for packages.",
+  "files": [
+    "*"
+  ],
+  "homepage": "https://github.com/swt-xd/shared-frontend/tree/main/",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/swt-xd/shared-frontend.git",
+    "directory": "packages/internal/prettier-config-react"
+  }
+}

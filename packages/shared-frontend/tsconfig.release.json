@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "rootDir": "lib",
+    "declarationDir": "./dist/types",
+    "emitDeclarationOnly": true,
+    "skipLibCheck": true
+  },
+  "include": ["lib"],
+  "exclude": ["**/__tests__", "**/node_modules", "node_modules/**", "node_modules"]
+}

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "lib": ["DOM", "ESNext", "DOM.Iterable"],
+    "skipLibCheck": false,
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": true,
+    "rootDir": ".",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "allowJs": false,
+    "esModuleInterop": true,
+    "declarationDir": "./dist/types",
+    "emitDeclarationOnly": true,
+    "paths": {
+      "design-system/utils-react-router": ["./lib"],
+    }
+  },
+  "include": ["app", "lib", "examples"],
+}

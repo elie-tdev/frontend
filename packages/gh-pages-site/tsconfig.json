@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "lib": ["DOM", "ESNext", "DOM.Iterable"],
+    "skipLibCheck": false,
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": true,
+    "rootDir": "../../",
+    "baseUrl": "../../",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "allowJs": false,
+    "esModuleInterop": true,
+    "declarationDir": "./packages/gh-pages-site/dist/types",
+    "emitDeclarationOnly": true,
+    "paths": {
+      "@app/*": ["packages/gh-pages-site/app/*"],
+      "@components/*": ["packages/gh-pages-site/components/*"],
+      "@context/*": ["packages/gh-pages-site/context/*"],
+      "@pages/*": ["packages/gh-pages-site/pages/*"],
+      "@hooks/*": ["packages/gh-pages-site/hooks/*"],
+      "design-system/pattern-app-shell": ["packages/pattern-app-shell/lib/index.tsx"],
+      "design-system/pattern-utils": ["packages/pattern-utils/lib/index.tsx"],
+      "design-system/utils-react-router": ["packages/utils-react-router/lib/index.tsx"],
+      "design-system/pattern-sidebar-navigation": ["packages/pattern-sidebar-navigation/lib/index.tsx"],
+      "design-system/shared-frontend": ["packages/shared-frontend/lib/index.ts"]
+    }
+  },
+  "include": ["app", "components", "hooks", "context", "pages"],
+}
